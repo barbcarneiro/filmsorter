@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=UnifrakturCook:wght@700&display=swap");
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container1 {
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    background-color: none;
+    padding: 1vh;
+    width: 90vh;
+}
+
+h1 {
+    float: center;
+    width: 100%;
+    font-family: "UnifrakturCook";
+    color: lightgrey;
+    text-shadow: 0.2vh 0vh 0 black, -0.2vh 0vh 0 black, 0vh 0.2vh 0 black, 0vh -0.2vh 0 black, 0vh 0vh 10vh red;
+    font-size: 6vh;
+    height: 6vh;
+}
+
+button {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    float: center;
+    height: 3vh;
+    width: 20vh;
+    color: lightgrey;
+    background-color: darkred;
+    border: none;
+    border-radius: 0.5vh;
+    box-shadow: 0.2vh 0.2vh 0vh black;
+    transition: 0.5s linear;
+}
+
+button:hover {
+    color: darkred;
+    text-shadow: 0 0 2vh darkred;
+    background-color: black;
+    transition: 1s linear;
+}
+
+.container2 {
+    position: relative;
+    float: center;
+    background-color: none;
+    margin: 2vh;
+    padding: 2vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    height:100%;
+    vertical-align: center;
+}
+
+.moviePic {
+    width:30vh;
+    background-color: none;
+}
+
+#moviePoster {
+    width: 100%;
+    margin: .5vh;
+    padding: .5vh;
+    background-color: none;
+    vertical-align: center;
+}
+
+.movieInfo {
+    margin: .5vh;
+    text-align: justify;
+    height:87%;
+    background-color: none;
+    padding:2vh;
+}
+
+#movieEngName {
+    position: relative;
+    font-family: "Open Sans";
+    color:lightgrey;
+    font-weight: 800;
+    font-size: 4vh;
+    margin: 0.5vh;
+    background-color: none;
+}
+
+#moviePtName {
+    font-family: "Open Sans";
+    color: gray;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.8vh;
+    margin: 0.1vh 0.5vh 0.1vh 0.5vh;
+    background-color: none;
+}
+
+#movieYear {
+    font-family: "Open Sans";
+    color: gray;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.8vh;
+    margin: 0.1vh 0.5vh 0.1vh 0.5vh;
+    background-color: none;
+}
+
+#movieSinopse {
+    position: relative;
+    vertical-align: bottom;
+    color:lightgray;
+    float: right;
+    height: 62.5%;
+    background-color: none;
+    margin: 2vh 0.5vh;
+    padding:1vh;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 1.9vh;
+    text-indent: 3%;
+    line-height: 150%;
+    
+}
+
